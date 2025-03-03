@@ -22,7 +22,7 @@
 	
     <!-- Compile -->
     <target name="compile" depends="init">
-        <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false" />
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="null" />
     </target>
 	
     <!-- Create -->
